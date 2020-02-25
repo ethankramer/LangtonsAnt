@@ -20,10 +20,8 @@ void draw() {
   
   textSize(32);
   fill(0, 102, 153);
-  //line(499,0,499,999);
   text("Generation:"+genNum,324,50);
 }
-// Thanos watch out
 public class Ant {
   private int direction;
   private int x;

@@ -9,8 +9,8 @@ direction (one of the four cardinal directions). Each generation, the ant will c
 * If the cell is "off", the ant turns 90 degrees right, flips the cell to "on", and steps forward.
 
 Interestingly, if the board begins with every cell as "off", after about 10,000 steps, the ant will begin to spiral off
-into infinity (this infinite spiral is named "The Highway"). Additionally, regardless of where the ant starts, what 
-direction it is facing, or if there are multiple ants, eventually the ant(s) will form a "Highway". This also holds true
+into infinity (this infinite spiral is named "The Highway"). Additionally, regardless of where the ant starts, its initial
+direction, or if there are multiple ants, eventually the ant(s) will form a "Highway". This also holds true
 even if the inital board contains some "on" cells.
 
 In this version, the grid wraps around from right to left (and vice versa) as well as top to bottom (and vice versa), 

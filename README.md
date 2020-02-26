@@ -14,5 +14,8 @@ direction, or if there are multiple ants, eventually the ant(s) will form a "Hig
 even if the inital board contains some "on" cells.
 
 In this version, the grid wraps around from right to left (and vice versa) as well as top to bottom (and vice versa), 
-preventing the ant(s) from spiraling off into infinity. When initiallized, the game will start with 2 ants in random positions,
-each facing a random direction. 
+preventing the ant(s) from spiraling off into infinity. When initiallized, the game will start with 1 ant in the center of the grid.
+
+The file "LangtonsAntEXAMPLE.png" contains a sample of 4 generations with the ant beginning in the middle of the grid.
+In the third example, the ant has already began forming the "Highway" and in the fourth example, the ant has collided with its
+previous path, but quickly formed another highway.

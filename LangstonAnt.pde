@@ -152,7 +152,7 @@ public class Game {
     int randDirection1 = randomGenerator.nextInt(Size);
 
     ant = new Ant(0, 49, 49);
-    ant = new Ant(randDirection, x, y);
+    //ant = new Ant(randDirection, x, y);
     ant2 = new Ant(randDirection1, x1, y1);
   }
 
@@ -170,10 +170,10 @@ public class Game {
     //Draw ant last
     fill(255, 0, 0);
     rect(ant.x*cellSize, ant.y*cellSize, cellSize, cellSize);
-    rect(ant2.x*cellSize, ant2.y*cellSize, cellSize, cellSize);
+    //rect(ant2.x*cellSize, ant2.y*cellSize, cellSize, cellSize);
 
     updateBoard();
-    updateBoard2();
+    //updateBoard2();
   }
 
 
